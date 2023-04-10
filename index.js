@@ -37,6 +37,11 @@ if (!opts) {
   process.exit()
 }
 
+if (opts.redisPassword.includes('ENTER_PASSWORD')) {
+  console.log('Enter the redis password in the /scripts file')
+  process.exit()
+}
+
 const redisOptions = {
   username: opts.redisUser,
   port: opts.redisPort,
