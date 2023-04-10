@@ -5,7 +5,7 @@
   "bin": "index.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "stage": "./scripts/stage.sh"
   },
   "keywords": [],
   "author": "Pavel Voronin",
